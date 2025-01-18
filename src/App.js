@@ -10,7 +10,7 @@ function App() {
     <div className="App">
     
 
-      <header className="App-header">
+      <header>
         <h1>Hello, World!</h1>
         
         <button className="action-button" onClick={() => handleClick('Button 1 Clicked!')}>
