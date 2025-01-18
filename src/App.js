@@ -8,19 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <nav className="navbar">
-        <div className="navbar-container">
-          <div className="navbar-logo">
-            <h2>MyApp</h2>
-          </div>
-          <ul className="navbar-links">
-            <li> Home</li>
-            <li> About</li>
-            <li> Services</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-      </nav>
+    
 
       <header className="App-header">
         <h1>Hello, World!</h1>
@@ -33,13 +21,8 @@ function App() {
         </button>
 
         <div className="profile-card">
-          <img 
-            src="https://via.placeholder.com/150" 
-            alt="Profile" 
-            className="profile-image" 
-          />
           <h2>Poojan Parmar</h2>
-          <p>Web Developer</p>
+          <p>Software Developer</p>
           <p>Email: poojanparmar25@example.com</p>
         </div>
       </header>
