@@ -8,8 +8,6 @@ function App() {
 
   return (
     <div className="App">
-    
-
       <header>
         <h1>Hello, World!</h1>
         
@@ -21,6 +19,11 @@ function App() {
         </button>
 
         <div className="profile-card">
+          <img 
+            src="https://via.placeholder.com/150" 
+            alt="Profile" 
+            className="profile-image" 
+          />
           <h2>Poojan Parmar</h2>
           <p>Software Developer</p>
           <p>Email: poojanparmar25@example.com</p>
